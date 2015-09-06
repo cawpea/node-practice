@@ -1,0 +1,6 @@
+http://rss.rssad.jp/rss/itmnews/2.0/news_bursts.xml
+http://rss.rssad.jp/rss/itmnews/2.0/news_domestic.xml
+http://rss.rssad.jp/rss/itmnews/2.0/news_foreign.xml
+http://rss.rssad.jp/rss/itmnews/2.0/news_venture.xml
+http://rss.rssad.jp/rss/itmnews/2.0/news_products.xml
+http://rss.rssad.jp/rss/itmnews/2.0/news_technology.xml
