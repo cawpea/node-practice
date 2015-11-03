@@ -1,5 +1,6 @@
 var connect = require('connect');
 var query = require('connect-query');
+var url = require('url');
 
 var app = connect()
 	.use( query() )
@@ -8,3 +9,7 @@ var app = connect()
 		res.end( JSON.stringify( req.query ) );
 	});
 app.listen(3000);
+
+connect.logger.token( 'query-string', function ( req, res ) {
+	return url.parse( req.url ).query;
+});
