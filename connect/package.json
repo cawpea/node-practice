@@ -1,0 +1,35 @@
+{
+  "name": "connect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connect.js",
+  "dependencies": {
+    "basic-auth": "^1.0.3",
+    "body-parser": "^1.14.1",
+    "compression": "^1.6.0",
+    "connect": "^3.4.0",
+    "connect-query": "^0.2.0",
+    "cookies": "^0.5.1",
+    "node-notifier": "^4.3.1",
+    "errorhandler": "^1.4.2",
+    "serve-static": "^1.10.0",
+    "memory-store": "^0.0.1",
+    "vhost": "^3.0.2"
+  },
+  "devDependencies": {
+    "basic-auth": "^1.0.3",
+    "body-parser": "^1.14.1",
+    "compression": "^1.6.0",
+    "connect-query": "^0.2.0",
+    "cookies": "^0.5.1",
+    "errorhandler": "^1.4.2",
+    "memory-store": "0.0.1",
+    "serve-static": "^1.10.0",
+    "vhost": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
