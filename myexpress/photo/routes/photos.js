@@ -55,3 +55,14 @@ exports.submit = function (dir) {
 		});
 	};
 };
+exports.download = function (dir) {
+	return function ( req, res, next ) {
+		var id = req.params.id;
+		model.findById( id, function (err, photo) {
+			if( err ) return next(err);
+			var path = join( dir, photo.path );
+			// res.sendFile( path );
+			res.download( path, 'sampleimage.jpeg' );
+		});
+	};
+};
